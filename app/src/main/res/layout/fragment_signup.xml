@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?android:attr/actionBarSize">
+
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="নতুন একাউন্ট খুলুন"
+        android:textColor="@color/colorTitle"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_title"
+        android:layout_margin="10dp"
+        android:hint="আপনার নাম"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_text_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_name"
+        android:layout_margin="10dp"
+        android:hint="মোবাইল নাম্বার"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edit_text_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_phone"
+        android:layout_margin="10dp"
+        android:hint="পাসওয়ার্ড"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_password"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorTitle"
+        android:text="নিবন্ধন করুন"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/text_view_signIn"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="লগইন করুন"
+        android:clickable="true"
+        android:textColor="@color/colorsignIn"/>
+
+
+</RelativeLayout>

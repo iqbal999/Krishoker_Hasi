@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "479056419058",
+    "firebase_url": "https://banglarkrishok2.firebaseio.com",
+    "project_id": "banglarkrishok2",
+    "storage_bucket": "banglarkrishok2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479056419058:android:a93ca79f0e570177",
+        "android_client_info": {
+          "package_name": "com.example.iqbal.banglarkrishok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479056419058-98l8rcute54b9g4sjgfsqph1gnsgdpgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iqbal.banglarkrishok",
+            "certificate_hash": "ca5e845ba6da6caa16e27c9a7ba90fd31c6894b5"
+          }
+        },
+        {
+          "client_id": "479056419058-cogmumpkqnu1jlbmlve6smqmv66ruir6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB96zp2LeizSMejeovA92bMqID2ZQsYxpY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479056419058-cogmumpkqnu1jlbmlve6smqmv66ruir6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

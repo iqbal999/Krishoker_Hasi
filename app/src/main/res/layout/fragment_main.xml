@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="?android:attr/actionBarSize"
+    android:layout_gravity="center"
+    android:background="@drawable/bg">
+
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/page1"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="#b3008920"
+            android:text="চাষাবাদ ও পরিচর্যা"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"/>
+
+
+        <Button
+            android:id="@+id/page2"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="#b3008920"
+            android:text="কৃষি সমস্যা ও সমাধান"
+            android:layout_margin="5dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/page3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:background="#b3008920"
+            android:textColor="#fff"
+            android:text="পরামর্শের জন্য আবেদন"
+            android:layout_gravity="center"/>
+
+
+        <Button
+            android:id="@+id/page4"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="শস্য বিক্রয়"
+            android:layout_margin="5dp"
+            android:background="#b3008920"
+            android:textColor="#fff"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/more"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#b3008920"
+        android:layout_margin="13dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="আরো জানতে ক্লিক করুন"/>
+
+</LinearLayout>
